@@ -7,4 +7,5 @@ import java.util.List;
 
 public class DataBase {
     public static List<Produto> produtos = new ArrayList<Produto>();
+    public static List<Cliente> clientes;
 }
