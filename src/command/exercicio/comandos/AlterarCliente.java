@@ -2,8 +2,6 @@ package command.exercicio.comandos;
 
 import command.exercicio.Cliente;
 import command.exercicio.Command;
-
-import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.Scanner;
