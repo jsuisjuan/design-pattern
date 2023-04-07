@@ -8,8 +8,8 @@ public class Invoker {
     private static Map<Integer, Command> comandos = new HashMap<Integer, Command>();
     static List<Cliente> listaCliente = new ArrayList<Cliente>();
 
-    public static void invoke(Integer command) {
-        switch (command) {
+    public static String invoke(String string) {
+        switch (string) {
             case 1: new IncluirCliente(listaCliente); break;
             case 2: new ListarCliente(listaCliente); break;
             case 3: new SelecionarCliente(listaCliente); break;
